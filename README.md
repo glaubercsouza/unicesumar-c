@@ -1,2 +1,4 @@
-# unicesumar-c
- Repositório criado para armazenar as atividades da linguagem c da faculdade
+# Estudo da Linguagem C
+
+
+Repositório para organização de arquivos, exercícios e criação de projetos em C relacionados ao curso de Análise e Desenvolvimento de Sistemas na UniCesumar.
