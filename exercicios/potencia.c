@@ -10,6 +10,6 @@ int main(){
 	scanf("%f", &n2);
 	total = pow(n1, n2);
 	
-	printf("%.2f elevado a %.2f e: %.2f", n1, n2, total);
+	printf("\n%.2f elevado a %.2f e: %.2f", n1, n2, total);
 	return(0);
 }
