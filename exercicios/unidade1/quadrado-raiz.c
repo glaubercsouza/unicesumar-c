@@ -7,9 +7,6 @@ int main() {
 	printf("Escreva um numero inteiro: ");
 	scanf("%d", &num);
 	
-	quad = pow(num,2);
-	raiz = sqrt(num);
-	
-	printf("O quadrado de %d e %d e a raiz quadrada de %d e %d", num, quad, num, raiz);
+	printf("O quadrado de %d e %.2f e a raiz quadrada de %d e %.2f", num, pow(num,2), num, sqrt(num));
 	return(0);
 }
