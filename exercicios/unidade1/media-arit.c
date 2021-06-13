@@ -12,8 +12,6 @@ int main() {
 	printf("Insira o quarto numero: ");
 	scanf("%f", &num4);
 	
-	media = (num1 + num2 + num3 + num4) / 4;
-	
-	printf("A media aritmetica entre os quatro numeros inseridos e %.2f", media);
+	printf("A media aritmetica entre os quatro numeros inseridos e %.2f", (num1 + num2 + num3 + num4) / 4);
 	return(0);
 }
