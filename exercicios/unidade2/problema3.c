@@ -7,7 +7,7 @@ int main()
 	scanf("%d", &idade);
 	if (idade < 16)
 	{
-		printf("Voto não obrigatorio!");
+		printf("Voto nao obrigatorio!");
 	} 
 	else 
 	{
