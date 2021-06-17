@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
 	int		opcao;
 	float 	calorias;
-	printf("Escolha um prato tipico:\n1 - Italiano\n2 - Japones\n3 - Salvadorenho\n");
+	setlocale(LC_ALL, "Portuguese");
+	printf("Escolha um prato tipico:\n1 - Italiano\n2 - Japonês\n3 - Salvadorenho\n");
 	scanf("%d", &opcao);
 	switch (opcao)
 	{
@@ -18,7 +20,7 @@ int main()
 			calorias = calorias + 545;
 			break;
 	}
-	printf("Escolha uma bebida:\n1 - Cha \n2 - Suco de laranja \n3 - Refrigerante\n");
+	printf("Escolha uma bebida:\n1 - Chá \n2 - Suco de laranja \n3 - Refrigerante\n");
 	scanf("%d", &opcao);
 	switch (opcao)
 	{
