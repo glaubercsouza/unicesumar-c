@@ -5,9 +5,9 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float	nota, media, somaNotas;
 	int		numNotas, aprovados, reprovados, codigo, i;
-	printf("Informe o número de notas da disciplina: \n");
+	printf("Informe o número de notas da disciplina: ");
 	scanf("%d", &numNotas);
-	printf("Informe o código do aluno ou 0 para sair: \n");
+	printf("\nInforme o código do aluno ou 0 para sair: ");
 	scanf("%d", &codigo);
 	aprovados = 0;
 	reprovados = 0;
@@ -24,7 +24,7 @@ int main(){
 		} else{
 			reprovados++;
 		}
-		printf("\nInforme o código do aluno ou 0 para sair: \n");
+		printf("\nInforme o código do aluno ou 0 para sair: ");
 		scanf("%d", &codigo);
 	}
 	printf("\nO número de aprovados é %d", aprovados);
