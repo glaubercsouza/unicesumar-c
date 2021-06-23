@@ -23,6 +23,6 @@ int main(){
 	mediaFilhos = totFilhos / pessoas;
 	printf("O maior salário é R$ %.2f\n", maior);
 	printf("A média de salários é R$ %.2f\n", mediaSal);
-	printf("A média de filhos é R$ %.2f", mediaFilhos);
+	printf("A média de filhos é %.2f", mediaFilhos);
 	return(0);
 }
