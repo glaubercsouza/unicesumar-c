@@ -4,7 +4,7 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float	salarioAtual, novoSalario;
-	printf("***************************************************\n* EMPRESA ATIVIDADE-01 :)\n* Nome: Glauber Costa de Souza\n* RA: 20143994-5\n*\n***************************************************\n* Qual foi o seu último salário líquido recebido?\n* R$ ");
+	printf("***************************************************\n* EMPRESA ATV-01 \n* Nome: Glauber Costa de Souza\n* RA: 20143994-5\n* Curso: Análise e Desenvolvimento de Sistemas\n*\n***************************************************\n* Qual foi o seu último salário líquido recebido?\n* R$ ");
 	scanf("%f", &salarioAtual);
 	novoSalario = salarioAtual * 1.075;
 	if(salarioAtual <= 1750){
