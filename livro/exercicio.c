@@ -1,10 +1,10 @@
 #include <stdio.h>
-
-int main(){
-	int		x[10], i;
-	for(i = 0; i < 10; i++){
-		x[i] = ++i;
-		printf("\n[%d] = %d ", i, x[i]);
-	}
-	return(0);
+main() {
+    int n, x;
+    printf("\n Digite um número: ");
+    scanf("%d", &n);
+               
+    x = n++;
+    printf("N = %d", n);
+    printf("\nX = %d", x);
 }
