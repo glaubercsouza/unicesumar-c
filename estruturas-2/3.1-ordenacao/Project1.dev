@@ -1,6 +1,6 @@
 [Project]
-FileName=1.5-arvore-binaria-vetor.dev
-Name=1.5-arvore-binaria-vetor
+FileName=Project1.dev
+Name=Project1
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=1.5-arvore-binaria-vetor\main.c
+FileName=main.c
 CompileCpp=0
 Folder=
 Compile=1
