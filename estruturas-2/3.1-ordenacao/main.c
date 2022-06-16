@@ -12,6 +12,7 @@ int lista[tamanho];
 int ordenado[tamanho];
 int opt=-1;
 int qtd;
+int vec[tamanho];
 
 // Prototipação
 void menu_mostrar(void);
@@ -20,7 +21,7 @@ void lista_gerar(void);
 void lista_ler(void);
 void lista_limpar(void);
 void lista_mostrar_ordenado(void);
-int bubbleSort (int vec[]);
+int bubbleSort (int lista[]);
 void  troca (int* a, int* b);
 
 
@@ -41,7 +42,7 @@ int main(void) {
 				lista_ler();
 				break;
 			case 3:
-				bubbleSort (int vec[]);
+				bubbleSort(int lista[]);
 				break;
 				
 		}
@@ -101,7 +102,7 @@ void lista_mostrar_ordenado(void) {
 }
 
 // Aplica o método do bubbleSort
-int bubbleSort (int vec[]) {
+int bubbleSort (int lista[]) {
 	int qtd, i, j, tmp;
 	qtd = 0;
 	for (i = 0; i < tamanho -1; i++) {
